@@ -30,11 +30,11 @@
         </div>
       </div>
     </div>
-    <div class="container mx-auto space-y-20">
-        <div class="bg-white -mt-40 rounded-2xl p-5 flex flex-row divide-x shadow-xl shadow-gray-200/50">
+    <div class="container mx-auto pb-20">
+        <div class="bg-white -mt-40 rounded-3xl p-5 flex flex-row divide-x shadow-xl shadow-gray-200/50">
             <div class="w-8/12 pr-5">
                 <div class="flex flex-row justify-between items-center">
-                    <span class="text-2xl font-semibold">Beli Mobil Bekas</span>
+                    <span class="text-2xl font-semibold text-gray-700">Beli Mobil Bekas</span>
                     <a href="#" class="flex flex-row items-center text-sky-500">
                         <span class="text-sm">Lebih Lanjut</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -85,7 +85,7 @@
             </div>
             <div class="w-4/12 pl-5">
                 <div class="flex flex-row justify-between items-center">
-                    <span class="text-2xl font-semibold">Jual Mobil Bekas</span>
+                    <span class="text-2xl font-semibold text-gray-700">Jual Mobil Bekas</span>
                     <a href="#" class="flex flex-row items-center text-sky-500">
                         <span class="text-sm">Lebih Lanjut</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -132,9 +132,54 @@
                 </div>
             </div>
         </div>
-        <div class="container mx-auto text-3xl font-bold text-center space-y-4 text-gray-700">
+        <div class="container mx-auto text-3xl font-bold text-center space-y-4 text-gray-700 mt-20">
             <p>Apa saja keuntungan yang Anda dapatkan</p>
             <p>dengan menggunakan Moladin?</p>
+        </div>
+
+        <div class="flex flex-row space-x-5 mt-28">
+            <div class="w-3/12 bg-white rounded-3xl flex flex-col items-center space-y-4 px-2 pb-10">
+                <div class="bg-sky-100 w-20 h-20 flex items-center justify-center rounded-3xl -mt-10">
+                    <img src="/benefit-best-ucr.png" alt="car">
+                </div>
+                <div class="text-xl text-gray-700 text-center font-bold">Beli Mobil Bekas Terbaik</div>
+                <div class="text-sm font-light text-gray-500 text-center ">Dengan tim berpengalaman yang melakukan inspeksi mobil secara rutin untuk menjamin kualitasnya.</div>
+            </div>
+            <div class="w-3/12 bg-white rounded-3xl flex flex-col items-center space-y-4 px-2 pb-10">
+                <div class="bg-sky-100 w-20 h-20 flex items-center justify-center rounded-3xl -mt-10">
+                    <MoladinCar />
+                </div>
+                <div class="text-xl text-gray-700 text-center font-bold">Jual Mobil Bekas Cepat</div>
+                <div class="text-sm font-light text-gray-500 text-center">Mobil yang anda jual akan terdaftar di platform jual beli yang dapat di akses oleh semua Agen Moladin</div>
+            </div>
+            <div class="w-3/12 bg-white rounded-3xl flex flex-col items-center space-y-4 px-2 pb-10">
+                <div class="bg-sky-100 w-20 h-20 flex items-center justify-center rounded-3xl -mt-10">
+                    <MoladinRibbon />
+                </div>
+                <div class="text-xl text-gray-700 text-center font-bold">Nikmati Kemudahan</div>
+                <div class="text-sm font-light text-gray-500 text-center">Transaksi sangat mudah dan aman karena di dampingi oleh tim Moladin yang selalu siap membantu</div>
+            </div>
+            <div class="w-3/12 bg-white rounded-3xl flex flex-col items-center space-y-4 px-2 pb-10">
+                <div class="bg-sky-100 w-20 h-20 flex items-center justify-center rounded-3xl -mt-10">
+                    <MoladinCoinCycle />
+                </div>
+                <div class="text-xl text-gray-700 text-center font-bold">Dapat Uang Tambahan</div>
+                <div class="text-sm font-light text-gray-500 text-center">Melalui jaringan Agen dan Mitra keuangan yang lebih luas sehingga penjualanmu jadi lebih mudah</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-sky-50 py-10">
+        <div class="container mx-auto">
+            <div class="flex flex-row justify-between items-center">
+                <span class="text-2xl font-semibold text-gray-700">Rekomendasi Mobil</span>
+                <a href="#" class="flex flex-row items-center text-sky-500 underline underline-offset-8">
+                    <span class="">Lihat Semua Mobil</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </a>
+            </div>
         </div>
     </div>
   </div>
