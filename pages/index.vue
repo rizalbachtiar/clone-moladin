@@ -32,7 +32,7 @@
     </div>
     <div class="container mx-auto pb-20">
         <div class="bg-white -mt-40 rounded-3xl p-5 flex flex-row divide-x shadow-xl shadow-gray-200/50">
-            <div class="w-8/12 pr-5">
+            <div class="w-8/12 pr-5 space-y-5">
                 <div class="flex flex-row justify-between items-center">
                     <span class="text-2xl font-semibold text-gray-700">Beli Mobil Bekas</span>
                     <a href="#" class="flex flex-row items-center text-sky-500">
@@ -83,7 +83,7 @@
                     </button>
                 </div>
             </div>
-            <div class="w-4/12 pl-5">
+            <div class="w-4/12 pl-5 space-y-5">
                 <div class="flex flex-row justify-between items-center">
                     <span class="text-2xl font-semibold text-gray-700">Jual Mobil Bekas</span>
                     <a href="#" class="flex flex-row items-center text-sky-500">
@@ -179,6 +179,21 @@
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                     </svg>
                 </a>
+            </div>
+            <div class="w-4/12 bg-white">
+                <div class="h-56">
+                    <img class="object-cover w-full h-full" src="/car-recomended.jpeg" alt="Mobil">
+                </div>
+                <div class="p-4">
+                    <div class="flex space-x-4">
+                        <a class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-lg" href="#">Ready Stock</a>
+                        <a class="bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-lg" href="#">Verified</a>
+                    </div>
+                    <div>
+                        <span>HONDA ALL NEW CR-V 2WD 2.0 AT BENSIN 2.0 BLA BLA BLA</span>
+                        <div></div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
