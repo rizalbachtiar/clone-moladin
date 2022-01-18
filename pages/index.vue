@@ -170,7 +170,7 @@
     </div>
 
     <div class="bg-sky-50 py-10">
-        <div class="container mx-auto">
+        <div class="container mx-auto space-y-10">
             <div class="flex flex-row justify-between items-center">
                 <span class="text-2xl font-semibold text-gray-700">Rekomendasi Mobil</span>
                 <a href="#" class="flex flex-row items-center text-sky-500 underline underline-offset-8">
@@ -180,18 +180,50 @@
                     </svg>
                 </a>
             </div>
-            <div class="w-4/12 bg-white">
-                <div class="h-56">
-                    <img class="object-cover w-full h-full" src="/car-recomended.jpeg" alt="Mobil">
-                </div>
-                <div class="p-4">
-                    <div class="flex space-x-4">
-                        <a class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-lg" href="#">Ready Stock</a>
-                        <a class="bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-lg" href="#">Verified</a>
+            <div class="flex flex-row space-x-4 justify-center">
+                <div class="w-1/3 bg-white rounded-2xl shadow-xl shadow-gray-200/50" v-for="n in 3">
+                    <div class="h-64">
+                        <img class="object-cover w-full h-full rounded-t-2xl" src="/car-recomended.jpeg" alt="Mobil">
                     </div>
-                    <div>
-                        <span>HONDA ALL NEW CR-V 2WD 2.0 AT BENSIN 2.0 BLA BLA BLA</span>
-                        <div></div>
+                    <div class="p-4 divide-y space-y-5">
+                        <div class="space-y-4">
+                            <div class="flex space-x-4">
+                                <a class="bg-green-500 text-white text-sm font-semibold px-3 py-1 rounded-lg" href="#">Ready Stock</a>
+                                <a class="bg-blue-500 text-white text-sm font-semibold px-3 py-1 rounded-lg" href="#">Verified</a>
+                            </div>
+                            <p class="font-semibold text-gray-700 truncate">HONDA ALL NEW CR-V 2WD 2.0 AT BENSIN 2.0 BLA BLA BLA</p>
+                            <div class="flex flex-row space-x-2">
+                                <div class="flex flex-row items-center space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                                    </svg>
+                                    <p class="text-xs text-gray-700">KABUPATEN BANYUMAS</p>
+                                </div>
+                                <div class="flex flex-row items-center space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                                      <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                                    </svg>
+                                    <p class="text-xs text-gray-700">Auto</p>
+                                </div>
+                                <div class="flex flex-row items-center space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                    <p class="text-xs text-gray-700">88.75 KM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex flex-row items-center justify-between mt-4">
+                                <div class="flex flex-col">
+                                    <span class="font-light text-sm text-gray-500">Harga</span>
+                                    <span class="text-orange-500 text-lg font-bold font-sans">Rp. 135.500.000,-</span>
+                                </div>
+                                <div>
+                                    <a class="bg-sky-500 p-3 text-sm font-semibold text-white rounded" href="#">Lihat Mobil</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
