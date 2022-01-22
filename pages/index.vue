@@ -42,6 +42,21 @@
                         </svg>
                     </a>
                 </div>
+                <div class="border p-3 flex flex-row divide-x rounded-lg">
+                    <div class="flex flex-row w-3/6 pr-4 space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                        <input class="focus:outline-none text-sm font-light w-full" type="text" name="search" placeholder="Cari Mobil Nama, Merk">
+                    </div>
+                    <div class="flex flex-row w-3/6 pl-4 space-x-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <input class="focus:outline-none text-sm font-light w-full" type="text" name="search" placeholder="Cari Mobil Nama, Merk">
+                    </div>
+                </div>
                 <div class="bg-gray-100 p-3 rounded-xl space-y-3">
                     <div>
                         <div class="mt-1 relative rounded-md shadow-sm">
@@ -244,5 +259,40 @@
             </div>
         </div>
     </div>
+
+    
   </div>
 </template>
+<script>
+    
+    export default {
+        data() {
+            return {
+              options: {
+                responsive: [
+                  { end: 576, size: 1 },
+                  { start: 576, end: 768, size: 2 },
+                  { start: 768, end: 992, size: 3 },
+                  { size: 4 },
+                ],
+                list: {
+                  // 1200 because @media (min-width: 1200px) and therefore I want to switch to windowed mode
+                  windowed: 1200,
+
+                  // Because: #app {padding: 80px 24px;}
+                  padding: 24,
+                },
+                position: {
+                  start: 2,
+                },
+                autoplay: { play: true, repeat: true, speed: 2500 },
+              },
+              items: [
+                { title: "Item 0", content: "Content item with description" },
+                { title: "Item 1", content: "Content item with description" },
+                { title: "Item 2", content: "Content item with description" },
+              ],
+            };
+        },
+    }
+</script>
