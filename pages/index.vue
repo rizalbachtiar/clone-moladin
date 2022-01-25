@@ -68,42 +68,42 @@
                       
                     </vue-horizontal-list>
                 </div>
+                <div class="flex flex-row space-x-4">
+                    <div class="border w-1/4 py-2 flex flex-col space-y-2 items-center rounded-lg cursor-pointer bg-gray-50">
+                        <p class="text-xs font-light text-gray-500">Jarak Tempuh Mobil</p>
+                        <p class="text-sm text-gray-700">Dibawah 10.000 KM</p>
+                    </div>
+                    <div class="border w-1/4 py-2 flex flex-col space-y-2 items-center rounded-lg cursor-pointer bg-gray-50">
+                        <p class="text-xs font-light text-gray-500">Jarak Tempuh Mobil</p>
+                        <p class="text-sm text-gray-700">Dibawah 10.000 KM</p>
+                    </div>
+                    <div class="border w-1/4 py-2 flex flex-col space-y-2 items-center rounded-lg cursor-pointer bg-gray-50">
+                        <p class="text-xs font-light text-gray-500">Jarak Tempuh Mobil</p>
+                        <p class="text-sm text-gray-700">Dibawah 10.000 KM</p>
+                    </div>
+                    <div class="border w-1/4 py-2 flex flex-col space-y-2 items-center rounded-lg cursor-pointer bg-gray-50">
+                        <p class="text-xs font-light text-gray-500">Jarak Tempuh Mobil</p>
+                        <p class="text-sm text-gray-700">Dibawah 10.000 KM</p>
+                    </div>
+                </div>
+                <div class="flex flex-row space-x-4">
+                    <div class="border w-1/5 py-3 rounded-lg cursor-pointer bg-gray-50 text-center">
+                        <p class="text-sm text-gray-700">Dibawah 2000</p>
+                    </div>
+                    <div class="border w-1/5 py-3 rounded-lg cursor-pointer bg-gray-50 text-center">
+                        <p class="text-sm text-gray-700">2000 - 2005</p>
+                    </div>
+                    <div class="border w-1/5 py-3 rounded-lg cursor-pointer bg-gray-50 text-center">
+                        <p class="text-sm text-gray-700">2006 - 2010</p>
+                    </div>
+                    <div class="border w-1/5 py-3 rounded-lg cursor-pointer bg-gray-50 text-center">
+                        <p class="text-sm text-gray-700">2011 - 2015</p>
+                    </div>
+                    <div class="border w-1/5 py-3 rounded-lg cursor-pointer bg-gray-50 text-center">
+                        <p class="text-sm text-gray-700">2016 - 2021</p>
+                    </div>
+                </div>
                 <div class="bg-gray-100 p-3 rounded-xl space-y-3">
-                    <div>
-                        <div class="mt-1 relative rounded-md shadow-sm">
-                          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <span class="text-gray-500">
-                              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                              </svg>
-                            </span>
-                          </div>
-                          <input type="text" name="price" id="price" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-10 pr-12 py-4 sm:text-sm border-gray-300 rounded-md" placeholder="Nama Anda">  
-                        </div>
-                    </div>
-                    <div>
-                        <input class="border w-full text-sm py-4 px-3 rounded-lg" type="text" name="merk" placeholder="Model">
-                    </div>
-                    <div class="flex flex-row space-x-4">
-                        <input class="border w-full text-sm py-4 px-3 rounded-lg" type="text" name="merk" placeholder="Tahun">
-                        <input class="border w-full text-sm py-4 px-3 rounded-lg" type="text" name="merk" placeholder="Cari Lokasi">
-                    </div>
-                    <div>
-                        <input class="border w-full text-sm py-4 px-3 rounded-lg" type="text" name="merk" placeholder="Nama Anda">
-                    </div>
-                    <div>
-                        <input class="border w-full text-sm py-4 px-3 rounded-lg" type="text" name="merk" placeholder="Nomor Handphone">
-                    </div>
-                    <div>
-                        <div class="mt-1 relative rounded-md shadow-sm">
-                          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-                            <span class="text-gray-500">
-                              
-                            </span>
-                          </div>
-                          <input type="text" name="price" id="price" class="focus:ring-indigo-500 focus:border-indigo-500 block w-full pl-7 pr-12 py-4 sm:text-sm border-gray-300 rounded-md" placeholder="0.00">  
-                        </div>
-                    </div>
                     <button class="w-full bg-amber-400 py-4 rounded-xl font-semibold">
                         Tanyakan
                     </button>
