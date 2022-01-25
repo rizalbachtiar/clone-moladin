@@ -57,6 +57,17 @@
                         <input class="focus:outline-none text-sm font-light w-full" type="text" name="search" placeholder="Cari Mobil Nama, Merk">
                     </div>
                 </div>
+                <div class="px-4">
+                    <vue-horizontal-list :items="items" :options="options">
+                        <template v-slot:default="{ item }">
+                            <div class="border p-4 flex flex-col items-center justify-center rounded-xl">
+                                <img class="w-24" :src="item.image" alt="merk">
+                                <p class="uppercase">{{ item.title }}</p>
+                            </div>
+                        </template>
+                      
+                    </vue-horizontal-list>
+                </div>
                 <div class="bg-gray-100 p-3 rounded-xl space-y-3">
                     <div>
                         <div class="mt-1 relative rounded-md shadow-sm">
@@ -264,35 +275,65 @@
   </div>
 </template>
 <script>
-    
     export default {
-        data() {
-            return {
-              options: {
-                responsive: [
-                  { end: 576, size: 1 },
-                  { start: 576, end: 768, size: 2 },
-                  { start: 768, end: 992, size: 3 },
-                  { size: 4 },
-                ],
-                list: {
-                  // 1200 because @media (min-width: 1200px) and therefore I want to switch to windowed mode
-                  windowed: 1200,
-
-                  // Because: #app {padding: 80px 24px;}
-                  padding: 24,
-                },
-                position: {
-                  start: 2,
-                },
-                autoplay: { play: true, repeat: true, speed: 2500 },
-              },
-              items: [
-                { title: "Item 0", content: "Content item with description" },
-                { title: "Item 1", content: "Content item with description" },
-                { title: "Item 2", content: "Content item with description" },
-              ],
-            };
-        },
-    }
+      data() {
+        return {
+          items: [
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+            {
+              title: "nissan",
+              image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdo8WeAmcV07jny8_xVglOrPdI8NUcyrUy2A&usqp=CAU",
+            },
+          ],
+          options: {},
+        };
+      },
+    };
 </script>
