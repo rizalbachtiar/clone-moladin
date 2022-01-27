@@ -258,14 +258,22 @@
 
     <div class="bg-white">
         <div class="container mx-auto pt-28 pb-10">
-            <div class="text-center space-y-14">
-                <div class="space-y-4">
+            <div class="space-y-14">
+                <div class="text-center space-y-4">
                     <p class="text-3xl text-gray-700 font-bold">Bagaimana cara kerja Moladin?</p>
                     <p class="text-gray-700 font-light">Semua proses transaksi di Moladin serba mudah. Lihat detailnya di sini!</p>
                 </div>
-                <div class="space-x-4">
-                    <a class="bg-sky-600 text-white text-sm py-4 px-8 font-semibold rounded-lg" href="#">Jual Mobil Bekas</a>
-                    <a class="text-gray-700 text-sm py-4 px-8 font-semibold rounded-lg border" href="#">Beli Mobil Bekas</a>
+                <div class="text-center space-x-4">
+                    <a class="bg-sky-600 text-white text-sm py-4 px-8 font-semibold rounded-lg inline-block" href="#">Jual Mobil Bekas</a>
+                    <a class="text-gray-700 text-sm py-4 px-8 font-semibold rounded-lg border inline-block" href="#">Beli Mobil Bekas</a>
+                </div>
+                <div class="bg-sky-600 flex flex-row rounde-xl">
+                    <div class="w-1/2 pl-16 pt-10 pb-16">
+                        <p>Buat Jadwal</p>
+                    </div>
+                    <div class="w-1/2 text-center">
+                        <CreateSchedule />
+                    </div>
                 </div>
             </div>
         </div>
