@@ -267,7 +267,7 @@
                     <a class="bg-sky-600 text-white text-sm py-4 px-8 font-semibold rounded-lg inline-block" href="#">Jual Mobil Bekas</a>
                     <a class="text-gray-700 text-sm py-4 px-8 font-semibold rounded-lg border inline-block" href="#">Beli Mobil Bekas</a>
                 </div>
-                <div class="bg-sky-600 flex flex-row rounde-xl">
+                <div class="bg-sky-600 flex flex-row rounded-3xl">
                     <div class="w-1/2 pl-16 pt-10 pb-16">
                         <p>Buat Jadwal</p>
                     </div>
