@@ -272,7 +272,7 @@
                         <div class="flex">
                             <div class="flex flex-col items-center mr-4">
                                 <div>
-                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full bg-white text-2xl font-semibold">
+                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full border text-white text-2xl font-semibold">
                                         1
                                     </div>
                                 </div>
@@ -281,14 +281,14 @@
                             <div class="pb-5">
                                 <a href="#" class="flex flex-col text-white rounded-3xl px-8 py-7 space-y-3 hover:bg-white hover:bg-opacity-10">
                                     <p class="font-bold text-xl">Buat Jadwal</p>
-                                    <p class="">Isi data hanya butuh 2 menit, dan tim Moladin akan menghubungimu untuk proses berikutnya.</p>
+                                    <p class="font-light">Isi data hanya butuh 2 menit, dan tim Moladin akan menghubungimu untuk proses berikutnya.</p>
                                 </a>
                             </div>
                         </div>
                         <div class="flex">
                             <div class="flex flex-col items-center mr-4">
                                 <div>
-                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full bg-white text-2xl font-semibold">
+                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full border text-white text-2xl font-semibold">
                                         2
                                     </div>
                                 </div>
@@ -297,14 +297,14 @@
                             <div class="pb-5">
                                 <a href="#" class="flex flex-col text-white rounded-3xl px-8 py-7 space-y-3 hover:bg-white hover:bg-opacity-10">
                                     <p class="font-bold text-xl">Gratis Inspeksi Mobil</p>
-                                    <p class="">Tim profesional kami akan memulai proses inspeksi mobil. Nggak lama, hanya 30 menit saja!</p>
+                                    <p class="font-light">Tim profesional kami akan memulai proses inspeksi mobil. Nggak lama, hanya 30 menit saja!</p>
                                 </a>
                             </div>
                         </div>
                         <div class="flex">
                             <div class="flex flex-col items-center mr-4">
                                 <div>
-                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full bg-white text-2xl font-semibold">
+                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full border text-white text-2xl font-semibold">
                                         3
                                     </div>
                                 </div>
@@ -313,14 +313,14 @@
                             <div class="pb-5">
                                 <a href="#" class="flex flex-col text-white rounded-3xl px-8 py-7 space-y-3 hover:bg-white hover:bg-opacity-10">
                                     <p class="font-bold text-xl">Jual Mobil Anda</p>
-                                    <p class="">Setelah inspeksi selesai, tim kami akan menawar mobilmu langsung di tempat.</p>
+                                    <p class="font-light">Setelah inspeksi selesai, tim kami akan menawar mobilmu langsung di tempat.</p>
                                 </a>
                             </div>
                         </div>
                         <div class="flex">
                             <div class="flex flex-col items-center mr-4">
                                 <div>
-                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full bg-white text-2xl font-semibold">
+                                    <div class="flex flex-col items-center justify-center w-12 h-12 rounded-full border text-white text-2xl font-semibold">
                                         4
                                     </div>
                                 </div>
@@ -328,7 +328,7 @@
                             <div class="pb-5">
                                 <a href="#" class="flex flex-col text-white rounded-3xl px-8 py-7 space-y-3 hover:bg-white hover:bg-opacity-10">
                                     <p class="font-bold text-xl">Terima Pembayaran dalam 1 Jam</p>
-                                    <p class="">Transaksi selesai! Semua urusan dokumen akan dilakukan oleh kami demi kenyamanan Anda.</p>
+                                    <p class="font-light">Transaksi selesai! Semua urusan dokumen akan dilakukan oleh kami demi kenyamanan Anda.</p>
                                 </a>
                             </div>
                         </div>
@@ -341,6 +341,9 @@
         </div>
     </div>
 
+    <div class="bg-sky-50 py-10">
+        <p class="text-center text-3xl text-gray-700 font-semibold">Testimoni Pengguna Moladin</p>
+    </div>
     
   </div>
 </template>
